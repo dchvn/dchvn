@@ -6,7 +6,7 @@
 
 ## PR - resolve conflict
 ### Merge with origin/master
-You will do not want to use it!
+You will not want to use it!
 ``` bash
 # Merge all change as single commit when you want create new branch
 git checkout master
