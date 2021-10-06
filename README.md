@@ -52,3 +52,20 @@ git commit --amend
 # modify author
 git commit --amend --author="Author Name <email@address.com>" --no-edit
 ```
+## Remote
+``` bash
+# Show all current remote
+git remote -v
+```
+``` bash
+# Add new remote
+git remote add remote_name https://blahblah.git
+```
+``` bash
+# Delete a remote
+git remote rm remote_name
+```
+
+
+
+
