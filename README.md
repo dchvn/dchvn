@@ -2,7 +2,7 @@
 - 👀 I’m interested in OLAP, Scala, Python
 - 🌱 I’m currently learning Scala, Python
 
-# Note my Git
+# My Git Note
 
 ## PR - resolve conflict
 ### Merge with origin/master
