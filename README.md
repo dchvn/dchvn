@@ -1,16 +1,18 @@
-- 👋 Hi, I’m @dchvn
+- 👋 Hi, I’m ```dch nguyen```
 - 👀 I’m interested in OLAP, Scala, Python
 - 🌱 I’m currently learning Scala, Python
 
-# PR - resolve conflict
-## Merge with origin/master
+# Note my Git
+
+## PR - resolve conflict
+### Merge with origin/master
 You will do not want to use it!
 ``` bash
 # Merge all change as single commit when you want create new branch
 git checkout master
 git merge --squash feature_1_branch
 ```
-## Rebase with origin/master
+### Rebase with origin/master
 ``` bash
 git fetch origin/master
 git rebase origin/master
@@ -28,7 +30,7 @@ git rebase --abort
 git push -f
 ```
 
-# Branch
+## Branch
 
 ``` bash
 # Create new branch from
@@ -38,7 +40,7 @@ git checkout -b origin/SPARK-xxx
 git push remote_name SPARK-xxx:SPARK-xxx
 
 ```
-# Commit
+## Commit
 ``` bash
 # rebase multiple commits to single commit
 git rebase -i HEAD~N  # N is number of commit
