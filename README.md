@@ -46,3 +46,9 @@ git push remote_name SPARK-xxx:SPARK-xxx
 git rebase -i HEAD~N  # N is number of commit
 # change 'pick' key word to 'squash'
 ```
+``` bash
+# modify comment
+git commit --amend
+# modify author
+git commit --amend --author="Author Name <email@address.com>" --no-edit
+```
