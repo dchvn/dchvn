@@ -8,10 +8,15 @@
 ### Merge with origin/master
 You will not want to use it!
 ``` bash
-# Merge all change as single commit when you want create new branch
-git checkout master
-git merge --squash feature_1_branch
+git fetch origin/master
+git merge origin/master
+
+# Resolve conflict and create merge commit
+git add path/to/files
+
+git commit -m "blah blah"
 ```
+
 ### Rebase with origin/master
 ``` bash
 git fetch origin/master
@@ -19,7 +24,6 @@ git rebase origin/master
 
 # after resolve conflict
 git add path/to/files
-git add ..
 
 git rebase --continue
 
@@ -39,6 +43,11 @@ git checkout -b origin/SPARK-xxx
 # Push to remote
 git push remote_name SPARK-xxx:SPARK-xxx
 
+```
+``` bash
+# Merge all change as single commit when you want create new branch
+git checkout -b merge_branch master
+git merge --squash feature_1_branch
 ```
 ## Commit
 ``` bash
