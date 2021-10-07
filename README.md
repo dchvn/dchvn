@@ -78,11 +78,12 @@ $ git remote rm remote_name
 ## Cherry pick
 Get commit from a branch
 Git cherry-pick is useful tool but not a best practice(cause duplicate commits)
-```
+``` bash
 # Find hash_commit in git log, and then pick that commit to current branch for applying
 $ git cherry-pick <hash_commit>
 $ git cherry-pick <hash_commit1> <hash_commit2> ...
-
+```
+``` bash
 # Pick the latest commit from branch 'AAA'
 $ git cherry-pick <AAA~1>
 ```
